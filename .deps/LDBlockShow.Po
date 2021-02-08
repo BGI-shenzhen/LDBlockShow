@@ -1,0 +1,595 @@
+LDBlockShow.o: src/LDBlockShow.cpp /usr/include/stdc-predef.h \
+ src/HeadIN.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/iostream \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++config.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ostream \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ios \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/iosfwd \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stringfwd.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/memoryfwd.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/postypes.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stdarg.h \
+ /usr/include/bits/wchar.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stddef.h \
+ /usr/include/xlocale.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/exception \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/atomic_lockfree_defines.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/exception_ptr.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/exception_defines.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/nested_exception.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/move.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/concept_check.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/type_traits \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/char_traits.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_algobase.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/functexcept.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/cpp_type_traits.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/type_traits.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/numeric_traits.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_pair.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator_base_types.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator_base_funcs.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/debug/assertions.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/ptr_traits.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/debug/debug.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/predefined_ops.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cstdint \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stdint.h \
+ /usr/include/stdint.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/localefwd.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/clocale \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cctype \
+ /usr/include/ctype.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/byteswap-16.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/ios_base.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/atomicity.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/gthr.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/bits/timex.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/setjmp.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_classes.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/string \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/allocator.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/new_allocator.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/new \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/ostream_insert.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/cxxabi_forced.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_function.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/backward/binders.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/range_access.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/initializer_list \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/basic_string.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/alloc_traits.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/alloc_traits.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/string_conversions.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cstdlib \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cstdio \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/functional_hash.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/hash_bytes.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/basic_string.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_classes.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/system_error \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/stdexcept \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/streambuf \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/streambuf.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/basic_ios.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cwctype \
+ /usr/include/wctype.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/streambuf_iterator.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/basic_ios.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/ostream.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/istream \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/istream.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/fstream \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/codecvt.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++io.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/fstream.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/sstream \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/sstream.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/vector \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_construct.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_uninitialized.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_vector.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_bvector.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/vector.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/map \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_tree.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/aligned_buffer.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_map.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/tuple \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/utility \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_relops.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/array \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/uses_allocator.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_multimap.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/iomanip \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/locale \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets_nonio.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ctime \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/time_members.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets_nonio.tcc \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_conv.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stringfwd.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/allocator.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/codecvt.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/unique_ptr.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/quoted_string.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/math.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cmath \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /zfssz5/BC_PUB/Software/01.Usr/include/zlib.h \
+ /zfssz5/BC_PUB/Software/01.Usr/include/zconf.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include-fixed/limits.h \
+ /zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h src/./include/gzstream/gzstream.c \
+ src/./include/gzstream/gzstream.h /usr/include/string.h \
+ src/./DataClass.h src/./CommFun.h src/FileDeal.h src/./FilterGenotype.h \
+ src/Calculate.h src/PairWiseRR.h src/PairWiseDD.h src/PairWiseBoth.h \
+ src/GetFig.h
+
+/usr/include/stdc-predef.h:
+
+src/HeadIN.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/iostream:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ostream:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ios:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/iosfwd:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stringfwd.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/memoryfwd.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/postypes.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/exception:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/atomic_lockfree_defines.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/exception_ptr.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/exception_defines.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/nested_exception.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/move.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/concept_check.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/type_traits:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/char_traits.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_algobase.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/functexcept.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/cpp_type_traits.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/type_traits.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/numeric_traits.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_pair.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator_base_types.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator_base_funcs.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/debug/assertions.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/ptr_traits.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/debug/debug.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/predefined_ops.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cstdint:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/localefwd.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/ios_base.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/atomicity.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_classes.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/string:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/allocator.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/new_allocator.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/new:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/ostream_insert.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/cxxabi_forced.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_function.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/backward/binders.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/range_access.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/initializer_list:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/basic_string.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/alloc_traits.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/alloc_traits.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/string_conversions.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/functional_hash.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/hash_bytes.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/basic_string.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_classes.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/system_error:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/stdexcept:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/streambuf:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/streambuf.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/basic_ios.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cwctype:
+
+/usr/include/wctype.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/streambuf_iterator.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/basic_ios.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/ostream.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/istream:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/istream.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/fstream:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/codecvt.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/basic_file.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++io.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/fstream.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/sstream:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/sstream.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/vector:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_construct.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_uninitialized.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_vector.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_bvector.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/vector.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/map:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_tree.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ext/aligned_buffer.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_map.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/tuple:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/utility:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_relops.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/array:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/uses_allocator.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stl_multimap.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/iomanip:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/locale:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets_nonio.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/ctime:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/time_members.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/libintl.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets_nonio.tcc:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/locale_conv.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/stringfwd.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/allocator.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/codecvt.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/unique_ptr.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/bits/quoted_string.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/math.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/include/c++/6.4.0/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/zfssz5/BC_PUB/Software/01.Usr/include/zlib.h:
+
+/zfssz5/BC_PUB/Software/01.Usr/include/zconf.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include-fixed/limits.h:
+
+/zfssz5/BC_PUB/Software/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+src/./include/gzstream/gzstream.c:
+
+src/./include/gzstream/gzstream.h:
+
+/usr/include/string.h:
+
+src/./DataClass.h:
+
+src/./CommFun.h:
+
+src/FileDeal.h:
+
+src/./FilterGenotype.h:
+
+src/Calculate.h:
+
+src/PairWiseRR.h:
+
+src/PairWiseDD.h:
+
+src/PairWiseBoth.h:
+
+src/GetFig.h:
