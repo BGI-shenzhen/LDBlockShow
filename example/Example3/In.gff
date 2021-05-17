@@ -1,0 +1,5 @@
+chr11	maker	mRNA	24142646	24142738	.	+	.	ID=GeneName
+chr11	maker	five_prime_UTR	24142646	24142652	.	-	.	Parent=GeneName
+chr11	maker	CDS	24142653	24142673	.	+	2	Parent=GeneName
+chr11	maker	CDS	24142718	24142729	.	+	2	Parent=GeneName
+chr11	maker	five_prime_UTR	24142730	24142738	.	+	.	Parent=GeneName

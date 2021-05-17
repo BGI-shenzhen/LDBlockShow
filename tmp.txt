@@ -1,0 +1,37 @@
+configure 
+head :
+echo  Detection system platform  is
+if [ "$(uname)" == "Darwin" ];then
+	echo MacOS
+	cp  src/plink_mac  ./bin/plink
+	which "zcat" >/dev/null 2>&1
+	if [ $? -eq 0 ];
+	then
+		echo check zcat done
+	else
+		echo can not find [zcat],we used the [gzcat] replace
+		sed  's/ zcat/ gzcat/g' src/FileDeal.h  > src/FileDeal.h.tmp
+		mv src/FileDeal.h.tmp  src/FileDeal.h
+	fi
+	# Mac OS
+elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ];then
+	echo Linux
+	# GNU/Linux
+elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ];then
+	echo windows sys no run this
+# Windows NT
+fi
+
+chmod 755 bin/*
+
+
+	chmod 755 bin/*
+	tail :
+
+		sed -i 's#\$(AUTOCONF)#\$(AUTOCONF) \&\&   echo chmod 755 bin/\\\*  \>\>  \$(top_srcdir)/configure #'  Makefile
+		chmod 755 bin/*
+
+
+	Makefile :
+
+		$(am__cd) $(srcdir) && $(AUTOCONF)  &&  echo chmod 755 bin/\*  >>  $(top_srcdir)/configure

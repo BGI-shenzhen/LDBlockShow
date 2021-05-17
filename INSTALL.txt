@@ -1,0 +1,90 @@
+
+LDBlockShow: A new simple and efficient software for Linkage Disequilibrium Decay analysis based Variant Call Format
+
+1)  Introduction
+-----------------------------------------------------------------------------------------------------------------
+#################################################################################################################
+
+This software relies on the zlib library packages [zlib]
+
+----------------------- zlib  infomation ----------------------
+if Lib [zlib] do not work
+you can download form this website and install it
+http://www.zlib.net/
+
+2) INSTALL  Method1
+----------------------------------------------------------------------------------------------------------------
+################################################################################################################
+
+Just execute as follows :
+	git clone https://github.com/BGI-shenzhen/LDBlockShow.git
+	chmod 755 configure ; ./configure ;
+	make;
+	mv LDBlockShow  bin/ ;
+
+
+**Note:** If fail to link,try to <b>re-install</b> the libraries [**_zlib_**](https://zlib.net/)
+
+
+3) INSTALL Method2
+----------------------------------------------------------------------------------------------------------------
+################################################################################################################
+A) Method2 For linux/Unix
+	For linux/Unix , execute as follows :
+			 tar -zxvf  LDBlockShowXXX.tar.gz
+			 cd LDBlockShowXXX;
+			 cd src;
+			 make ; make clean
+			 ../bin/LDBlockShow
+
+	#I had compiled and installed these gz library packages [zlib] on the linux X64 platform
+	if Link do not work ,try Re-install the gz library and copy them to the library Dir
+
+	        	 LDBlockShowXX/src/include/zlib 
+
+
+B) Method2 For macOS  platform INSTALL
+	you should  must  pre-install the library [zlib] and copy them to the corresponding library directory
+
+	#step1 :Should must <b>re-install</b> the gz library [zlib]
+			  see  [zlib] website 
+
+	#step2  :  # Copy these gz library file into the corresponding library directory
+
+			  cp libz.a libz.so*  LDBlockShowXX/src/include/zlib
+
+	#step3  : 
+	          sh make.sh # or [make && make clean]
+
+
+
+C) Other Method
+Note if it can't work . follow below  B1-B6  or use the  static Compiled [BamDeal_Linux ]
+############################################
+	   #autoscan ./
+	   #cp configure.scan configure.ac
+
+# if can't work,  follow below 6  commands
+	  B1:     aclocal             #//   src/automake-1.9/aclocal
+	  B2:     autoconf            #//   src/automake-1.9/autoconf
+	  B3:     autoheader          #//   src/automake-1.9/autoheader
+	  B4:     automake --add-missing   #//  src/automake-1.9/automake  --add-missing
+	  B5:      ./configure
+	  B6:      make
+#############################################
+#swimming in the sky & flying in the sea#
+
+
+
+4) Contact
+----------------------------------------------------------------------------------------------------------------
+################################################################################################################
+email: hewm2008@gmail.com / hewm2008@qq.com
+join the QQ Group : 125293663
+
+
+
+######################swimming in the sky and flying in the sea ########################### ##
+
+
+
