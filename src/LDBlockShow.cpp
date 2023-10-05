@@ -6,6 +6,7 @@
 #include "Calculate.h"
 #include "PairWiseRR.h"
 #include "PairWiseDD.h"
+#include "PairWiseDRaw.h"
 #include "PairWiseBoth.h"
 #include "GetFig.h"
 //#include "SpineBlockRR.h"
@@ -24,7 +25,7 @@ void  LDdecaySNP_help()
 		//"\t\t-Bed        <str>      In muti Region.bed file to show LD\n"
 		"\n"
 		"\n"
-		"\t\t-SeleVar      <int>      Select statistic for deal. 1: D' 2: R^2 3/4:Both [1]\n"
+		"\t\t-SeleVar      <int>      Select statistic for deal. 0:D raw 1: D' 2: R^2 3/4:Both [1]\n"
 		"\t\t-SubPop       <str>      SubGroup Sample File List[ALLsample]\n"
 		"\t\t-BlockType    <int>      method to detect Block [beta] [1]\n"
 		"\t\t                         1. Block by PLINK (Gabriel method)\n"
@@ -360,8 +361,8 @@ int LDdecay_help01(int argc, char **argv , In3str1v * paraFA04, Para_18 * para_1
 	}
 	if ( (paraFA04->RR_D) > 4 || (paraFA04->RR_D) < 0 )
 	{
-		cerr<<"\t\t-SeleVar   should be  [1/2/3/4]"<<endl;
-		cerr<<"\t\t1 for D' ; 2 for RR ; 3 for Both RR/D' ; 4 for Both D'/RR\n"<<endl;
+		cerr<<"\t\t-SeleVar   should be  [0/1/2/3/4]"<<endl;
+		cerr<<"\t\t0 for D raw ; 1 for D' ; 2 for RR ; 3 for Both RR/D' ; 4 for Both D'/RR\n"<<endl;
 		return 0;
 	}
 
@@ -500,11 +501,15 @@ int main(int argc, char *argv[])
 	{
 		Region_PairWise_D(paraFA04, para_18 ,SNPList, Flag_for_pro);
 	}
-	else if ( (paraFA04->RR_D) ==2 )
+	else if ((paraFA04->RR_D) == 0)
 	{
-		Region_PairWise_RR(paraFA04, para_18 ,SNPList, Flag_for_pro);
+		Region_PairWise_DRaw(paraFA04, para_18, SNPList, Flag_for_pro);
 	}
-	else if ( (paraFA04->RR_D) ==3 )
+	else if ((paraFA04->RR_D) == 2)
+	{
+		Region_PairWise_RR(paraFA04, para_18, SNPList, Flag_for_pro);
+	}
+	else if ((paraFA04->RR_D) == 3)
 	{
 		Region_PairWise_BothA(paraFA04, para_18 ,SNPList, Flag_for_pro);
 	}

@@ -73,7 +73,7 @@ int GetBestBase (string Genotype, map <string ,char > SNP_Allele , map <string,s
 		}
 		else
 		{
-			TempType.Value=2; 
+			TempType.Value=2;
 		}
 		Base_list.push_back(TempType);
 
@@ -87,7 +87,7 @@ int GetBestBase (string Genotype, map <string ,char > SNP_Allele , map <string,s
 		}
 		else
 		{
-			TempType.Value=2; 
+			TempType.Value=2;
 		}
 		Base_list.push_back(TempType);
 	}
@@ -136,7 +136,7 @@ int GetBestBase (string Genotype, map <string ,char > SNP_Allele , map <string,s
    return  0;
    }
 
-   vector <int> SampleSite; 
+   vector <int> SampleSite;
    vector<string> Vsample ;
 
    while(!VCFIN.eof())
@@ -320,7 +320,7 @@ while(!VCFIN.eof())
 	}
 
 	//if ( (  (1-(Max*0.5/NumberSubGroup))  < (para_18->MAF) )  )
-	if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )  
+	if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )
 	{
 		continue ;
 	}
@@ -373,7 +373,7 @@ while(!VCFIN.eof())
 		}
 		else
 		{
-			TypeA.Value=2; 
+			TypeA.Value=2;
 		}
 		genotypeVE.push_back(TypeA);
 	}
@@ -433,7 +433,7 @@ return 1;
   else
   {
   split(line,inf," \t");
-  if ((inf[9])[1] == '|') 
+  if ((inf[9])[1] == '|')
   {
   TTFF=true;
   }
@@ -619,7 +619,7 @@ int Read_VCF_IN(In3str1v * paraFA04, Para_18 * para_18 , map <string,map <llong,
 				continue ;
 			}
 
-			if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )  
+			if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )
 			{
 				BadMAF++;
 				continue ;
@@ -678,7 +678,7 @@ int Read_VCF_IN(In3str1v * paraFA04, Para_18 * para_18 , map <string,map <llong,
 				}
 				else
 				{
-					TypeA.Value=2; 
+					TypeA.Value=2;
 				}
 				genotypeVE.push_back(TypeA);
 			}
@@ -815,7 +815,7 @@ int Read_VCF_IN(In3str1v * paraFA04, Para_18 * para_18 , map <string,map <llong,
 			}
 
 			//if ( (  (1-(Max*1.0/(SeD+Max)))  < (para_18->MAF) )  )
-			if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )  
+			if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )
 			{
 				BadMAF++;
 				continue;
@@ -872,7 +872,7 @@ int Read_VCF_IN(In3str1v * paraFA04, Para_18 * para_18 , map <string,map <llong,
 				}
 				else
 				{
-					TypeA.Value=2; 
+					TypeA.Value=2;
 				}
 				genotypeVE.push_back(TypeA);
 			}
@@ -1157,7 +1157,7 @@ int Read_SubPopGenotype_IN(In3str1v * paraFA04, Para_18 * para_18 , map <string,
 	cout<<"the Number of subPop samples[found in Genotype] is "<<NumberSubGroup<<endl;
 	if (NumberSubGroup<3)
 	{
-		cerr<<"sub Group Population szie is too small, SubGroup sample size: "<<NumberSubGroup<<endl;
+		cerr<<"sub Group Population size is too small, SubGroup sample size: "<<NumberSubGroup<<endl;
 		return  0;
 	}
 
@@ -1291,7 +1291,7 @@ int Read_SubPopGenotype_IN(In3str1v * paraFA04, Para_18 * para_18 , map <string,
 		}
 
 		//if ( (  (1-(Max*1.0/(SeD+Max)))  < (para_18->MAF) )  )
-		if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )  
+		if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )
 		{
 			BadMAF++;
 			continue;
@@ -1350,7 +1350,7 @@ int Read_SubPopGenotype_IN(In3str1v * paraFA04, Para_18 * para_18 , map <string,
 			}
 			else
 			{
-				TypeA.Value=2; 
+				TypeA.Value=2;
 			}
 			genotypeVE.push_back(TypeA);
 			//	cerr<<TypeA.Value<<" ";
@@ -1451,7 +1451,7 @@ int Read_SubPopGenotype_IN(In3str1v * paraFA04, Para_18 * para_18 , map <string,
   return  0;
   }
 
-  vector <int> SampleSite; 
+  vector <int> SampleSite;
   vector<string> Vsample ;
 
   while(!VCFIN.eof())
@@ -1637,7 +1637,7 @@ while(!VCFIN.eof())
 	}
 
 	//if ( (  (1-(Max*0.5/NumberSubGroup))  < (para_18->MAF) )  )
-	if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )  
+	if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )
 	{
 		continue ;
 	}
@@ -1896,7 +1896,7 @@ int Read_VCF_IN_Phase(In3str1v * paraFA04, Para_18 * para_18 , map <string,map <
 				continue ;
 			}
 
-			if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )  
+			if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )
 			{
 				BadMAF++;
 				continue;
@@ -1946,7 +1946,7 @@ int Read_VCF_IN_Phase(In3str1v * paraFA04, Para_18 * para_18 , map <string,map <
 				}
 				else
 				{
-					TypeA.Value=2; 
+					TypeA.Value=2;
 				}
 				genotypeVE.push_back(TypeA);
 			}
@@ -2083,7 +2083,7 @@ int Read_VCF_IN_Phase(In3str1v * paraFA04, Para_18 * para_18 , map <string,map <
 			}
 
 			//if ( (  (1-(Max*1.0/(SeD+Max)))  < (para_18->MAF) )  )
-			if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )  
+			if ( (SeD*1.0/(SeD+Max))  < (para_18->MAF) )
 			{
 				BadMAF++;
 				continue;
@@ -2132,7 +2132,7 @@ int Read_VCF_IN_Phase(In3str1v * paraFA04, Para_18 * para_18 , map <string,map <
 				}
 				else
 				{
-					TypeA.Value=2; 
+					TypeA.Value=2;
 				}
 				genotypeVE.push_back(TypeA);
 			}
@@ -2301,7 +2301,7 @@ int PreDealVCF(In3str1v * paraFA04, Para_18 * para_18 , bool  &  TTFF  )
 			getline(VCFINTT,line);
 			inf.clear();
 			split(line,inf," \t");
-			if ((inf[9])[1] == '|') 
+			if ((inf[9])[1] == '|')
 			{
 				TTFF=true;
 				cout <<"#Detected VCF File is phased file with '|', Read VCF in Phase mode"<<endl;
@@ -2399,12 +2399,12 @@ int PreDealPLink(In3str1v * paraFA04, Para_18 * para_18  )
 	string ped=(paraFA04->InPlink)+".ped";
 	string map=(paraFA04->InPlink)+".map";
 
-	// ../../bin/plink   --file www  --export vcf --out   yyy  --allow-extra-chr  
+	// ../../bin/plink   --file www  --export vcf --out   yyy  --allow-extra-chr
 	// ../../bin/plink   --bfile www  --export vcf --out   yyyzzz  --allow-extra-chr
 	vector<string> RegionBed;
 	split((paraFA04->Region),RegionBed,":-");
 	string ForRegion=" --chr  "+RegionBed[0]+" --from-bp  "+RegionBed[1] + " --to-bp "+ RegionBed[2];
-	//--chr  Ghir_D11  --from-bp   24100000     --to-bp  24185529  
+	//--chr  Ghir_D11  --from-bp   24100000     --to-bp  24185529
 
 	string commod;
 	if  ( (access(bed.c_str(), 0) == 0)  &&  (access(fam.c_str(), 0) == 0)  &&  (access(bim.c_str(), 0) == 0)  )
