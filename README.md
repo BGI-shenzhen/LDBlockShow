@@ -3,7 +3,7 @@
 <b>LDBlockShow</b> is a fast and effective tool to generate linkage disequilibrium (LD) heatmap from VCF files. It is more time and memory saving than other current tools. LDBlockShow can generate the plots of LD heatmap and interested statistics or annotation results simultaneously. In addition, it also supports subgroup analysis.
 
 The <i><b>[LDBlockShow article](https://doi.org/10.1093/bib/bbaa227)</b></i> has been published in <b> [briefings in bioinformatics]( https://doi.org/10.1093/bib/bbaa227)</b>, please cited this article if possible
- 
+
 PMID: [33126247](https://pubmed.ncbi.nlm.nih.gov/33126247)   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           DOI:[10.1093/bib/bbaa227]( https://doi.org/10.1093/bib/bbaa227)
 
 ###  2 Download and Install
@@ -22,7 +22,7 @@ The <b>new version</b> will be updated and maintained in <b>[hewm2008/LDBlockSho
 
 </br> <b>2.3 Install</b>
 </br> Users can install it with the following options:
-</br> Option 1: 
+</br> Option 1:
 <pre>
         git clone https://github.com/hewm2008/LDBlockShow.git
         cd LDBlockShow ; chmod 755 configure  ;  ./configure;
@@ -57,7 +57,7 @@ The <b>new version</b> will be updated and maintained in <b>[hewm2008/LDBlockSho
                 -Region         <str>     In One Region to show LD info svg Figure
 
 
-                -SeleVar        <int>     Select statistic for deal. 1: D' 2: R^2 3/4: Both [1]
+                -SeleVar        <int>     Select statistic for deal. 0: D raw 1: D' 2: R^2 3/4: Both [1]
                 -SubPop         <str>     SubGroup Sample File List[ALLsample]
                 -BlockType      <int>     method to detect Block [beta] [1]
                                            1. Block by PLINK (Gabriel method)
@@ -80,7 +80,7 @@ The <b>new version</b> will be updated and maintained in <b>[hewm2008/LDBlockSho
 -OutPut         The output file directory and output file name prefix (e.g., /path/pop1)
 -Region         The defined region to show the LD heatmap (format: chr:start:end)
 
--SeleVar        The LD measurement (1: D' 2: R^2 3/4: Both R^2 and D'), the default is 1.
+-SeleVar        The LD measurement (0: D raw 1: D' 2: R^2 3/4: Both R^2 and D'), the default is 1.
 -SubPop         A sample list for subgroup analysis
 -BlockType      The definition of blocks. The default 1 is called by PLINK1 to generate the block defined by Gabriel et al.2. Solid spine of LD3 is also supported [2]. Users can also define their own cutoff of r2 and D' for blocks [3] combined with the option of "-BlockCut" or supply their own block region definition [4] combined with the option of "-FixBlock". 5 can be used as input if users prefer to not show the block region.
 
@@ -97,12 +97,12 @@ The <b>new version</b> will be updated and maintained in <b>[hewm2008/LDBlockSho
 </br><b>3.1.2 Other parameters</b>
 ```php
 ./bin/LDBlockShow -h
-		 
+
 		 Para [-i] is show for [-InVCF], Para [-o] is show for [-OutPut], Para [-r] is show for [-Region]
 
 		-InGenotype    <str>     InPut SNP Genotype Format
 		-InPlink       <str>     InPut Plink [bed+bim+fam] or [ped+map] file prefix
-		
+
 		-MAF           <float>   Min minor allele frequency filter [0.05]
 		-Miss          <float>   Max ratio of miss allele filter [0.25]
 		-HWE           <float>   Exact test of Hardy-Weinberg Equilibrium for SNP Pvalue[0]
@@ -242,7 +242,9 @@ out.pdf: Output plot in pdf format
 <pre>
 #../../bin/LDBlockShow   -InVCF Test.vcf.gz   -OutPut  out   -Region  chr11:24100000:24200000  -OutPng -SeleVar 1
 ../../bin/LDBlockShow   -InVCF Test.vcf.gz   -OutPut  out   -Region  chr11:24100000:24200000  -OutPng -SeleVar 2
-# [-SeleVar 1] is D',[-SeleVar 2] is RR ,[-SeleVar 3] are RR and D',[-SeleVar 4] are D' and RR # the default is D'
+
+# [-SeleVar 0] is D raw,[-SeleVar 2] is RR ,[-SeleVar 3] are RR and D',[-SeleVar 4] are D' and RR # the default is D'
+
 </pre>
 
 ![out.png](https://github.com/hewm2008/LDBlockShow/blob/main/example/Example1/out.png)
@@ -261,7 +263,7 @@ out.pdf: Output plot in pdf format
 
 * Example 3) show Figure with genomic annotation
 ```
-#../../bin/LDBlockShow   -InVCF   ../Example1/Test.vcf.gz    -OutPut  out -InGWAS gwas.pvalue  -InGFF  In.gff   -Region  chr11:24100000:24200000 -OutPng -SeleVar 1   
+#../../bin/LDBlockShow   -InVCF   ../Example1/Test.vcf.gz    -OutPut  out -InGWAS gwas.pvalue  -InGFF  In.gff   -Region  chr11:24100000:24200000 -OutPng -SeleVar 1
 ../../bin/LDBlockShow   -InVCF   ../Example1/Test.vcf.gz    -OutPut  out -InGWAS gwas.pvalue  -InGFF  In.gff   -Region  chr11:24100000:24200000 -OutPng -SeleVar 2
 ## you can run ShowLDSVG with more parameters to optimize the plot  ##
 #../../bin/ShowLDSVG    -InPreFix out -OutPut out.svg -InGWAS gwas.pvalue  -Cutline  7  -InGFF  In.gff  -crGene yellow:lightblue:pink:orange -showNum -OutPng
@@ -304,7 +306,11 @@ To evaluate the performance of LDBlockShow, we used test VCF files to generate t
 |Compressed SVG                            |            &radic;      |        &times;        |         &times;       |         &times;       |
 |PNG file                                  |            &radic;      |        &radic;        |         &times;       |         &radic;       |
 |Block region                              |            &radic;      |        &radic;        |         &times;       |         &radic;       |
-|LD measurement                            |     R<sup>2</sup>/D'    |   R<sup>2</sup>/D'    |   R<sup>2</sup>       |    R<sup>2</sup>/D'   | 
+<<<<<<< HEAD
+|LD measurement                            |     R<sup>2</sup>/D</sup>/Draw'    |   R<sup>2</sup>/D'    |   R<sup>2</sup>       |    R<sup>2</sup>/D'   |
+=======
+|LD measurement                            |     R<sup>2</sup>/D'</sup>/Draw    |   R<sup>2</sup>/D'    |   R<sup>2</sup>       |    R<sup>2</sup>/D'   |
+>>>>>>> bf6684c (inclusion of 'D raw' calculation)
 
 
 ###  6 An example image generated by LDBlockShow.
